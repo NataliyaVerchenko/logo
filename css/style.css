@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+/*font-family: 'Roboto', sans-serif;*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+body{
+    margin: 0;
+}
+ul,li{
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+* {
+    box-sizing: border-box;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+.main{
+    text-shadow: 1px 1px 2px rgba(0, 95, 185, 0.75);
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+.header{
+    background-color: #0074e1;
+    position: relative;
+    border-bottom: 4px solid #075eaf;
+}
+.header-wrapper{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.logo{
+       float: left;
+   }
+.logo {
+    color: #eeeeee;
+    text-decoration: none;
+    display: inline-block;
+    margin: 30px 0;
+    padding: 18px;
+    background: url(../img/your-logo.png) no-repeat center;
+    width: 134px;
+    height: 1px;
+}
+.nav{
+         float: right;
+    font-size: 0;
+     }
+.nav li{
+    display: inline-block;
+    font-size: 14px;
+}
+.nav li a{
+    color: #eeeeee;
+    padding: 40px 20px;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+}
+.nav li a:hover{
+    background-color:#0095f4;
+}
+
+.nav li a:hover:before {
+    content: '';
+    position: absolute;
+    height: 4px;
+    left: 0;
+    right: 0;
+    background: #097ad3;
+    bottom: -4px;
+}
+
+.nav li:before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 1px;
+    top: 0;
+    /* left: -1px; */
+    background: #f10000;
+    bottom: 0;
+}
+
+.active{
+    background-color:#005ac2;
+}
+.nav li:after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 1px;
+    top: 0;
+    /* right: 1px; */
+    background: #5cf112;
+    bottom: 0;
+}
+.orange{
+    background-color: #e7a301;
+}
+li a.orange:hover{
+    background-color: #e7a301;
+}
+.fa-shopping-cart{
+    margin-right: 10px;
+}
+.line{
+    content: '';
+    position: absolute;
+    height: 3px;
+    background: grey;
+}
+.container{
+    width: 500px;
+    height: 500px;
+    position: relative;
+    margin-top: 30px;
+}
+
+.block{
+    width: 250px;
+    height: 250px;
+
+}
+.blue{
+       background: blue;
+    content: '';
+    display: block;
+    position: absolute;
+    top:0;
+    left: 0;
+   }
+.red{
+    background: red;
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+}
+.green{
+    background: green;
+    content: '';
+    display: block;
+    position: absolute;
+    top: 75%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    z-index: 6;
+ }
